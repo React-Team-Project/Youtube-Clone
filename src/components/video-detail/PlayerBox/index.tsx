@@ -1,12 +1,11 @@
 /**
  * 동영상을 재생하는 컴포넌트 입니다.
  */
-import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { useState } from 'react';
 import VideoPlayer from './VideoPlayer';
 
 const PlayerBox = ({ videoId }) => {
+	console.log(videoId);
 	return (
 		<Wrapper>
 			<VideoPlayer videoId={videoId} />
